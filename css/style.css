@@ -1,0 +1,113 @@
+/*.cajas{
+    margin-left: 20px;
+}*/
+
+#button {
+    padding: 0;
+    }
+    #button li {
+        display: inline;
+        }
+        #button li a {
+            font-family: Arial;
+            font-size: 10px;
+            text-decoration: none;
+            float: right;
+            padding: 10px;
+            background-color: #141414;
+            color: #fff;
+            }
+            #button li a:hover {
+                background-color: #c9d42d;
+                margin-top: -2;
+                padding-bottom: 20px;
+                }
+
+                *{
+                    margin:0px;
+                    padding:0px;
+                    }
+                    
+                    #barra-superior {
+                                margin:auto;
+                                width:100%;
+                                background:#b46b8d; 
+                                height:40px;
+                                border-bottom: 4px solid #adbcdc; 
+                                position:fixed; 
+                                z-index:101; 
+                                }
+                    
+                                ul, ol {
+                                list-style:none;
+                                }
+                    
+                                .menu > li {
+                                float:left;
+                                }
+                    
+                                .menu{
+                                margin:0 auto;
+                                width:1000px; 
+                                }
+                    
+                                .menu li a {
+                                color:#ffffff; 
+                                font:normal normal 10px Arial; 
+                                text-transform:uppercase; 
+                                letter-spacing: 2px; 
+                                text-decoration:none;
+                                padding:20px 5px;
+                                display:block;
+                                cursor:pointer;
+                                }
+                    
+                                .menu li a:hover {
+                                color: #faefe6; 
+                                }
+                    
+                    
+                                .menu li ul {
+                                background-color: #f4f0f1;
+                                display:none;
+                                position:absolute;
+                                min-width:140px;
+                                }
+                    
+                                .menu li ul a { 
+                                color: #666666; 
+                                font:normal normal 10px ARIAL; 
+                                text-transform:uppercase; 
+                                letter-spacing: 2px; 
+                                }
+                    
+                                .menu li ul a:hover { 
+                                color: #F9A799; 
+                                }
+                    
+                                .menu li:hover > ul {
+                                display:block;
+                                }
+                    
+                                .search-box{ 
+                                width:12%; 
+                                text-align:center;
+                                padding:5px 0; 
+                                MARGIN-LEFT: 5PX;
+                                color:#333333; 
+                                border:0px solid #cccccc; 
+                                background:#ffffff; 
+                                font: normal normal 11px Lato; 
+                                border-radius:1px; 
+                                
+                                }
+                    
+                                #buscar-top{ 
+                                margin-top:5px; 
+                                margin-right:70px; 
+                    
+                                }
+                                #lupa{ 
+                                    margin-top:5px; 
+                        
+                                    }
